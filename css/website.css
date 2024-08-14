@@ -1364,5 +1364,14 @@ header .button-box>button:last-child:hover {
     line-height: 24px;
 }
 
-
-@media screen and (max-width:360px) {}
+  /* Scrollbar */
+  ::-webkit-scrollbar {
+    background-color: transparent;
+    width: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: linear-gradient(#F7F9FC, #FF708D);
+    border-radius: 100px;
+  }
+  
